@@ -38,7 +38,7 @@ app.get('/', (req, res) => {
 
 // version endpoint to provide easy convient method to demonstrating tests pass/fail
 app.get('/version', (req, res) => {
-    res.json({ version: '1.0.0' });
+    res.json({ version: '2.0.0' });
 });
 
 // mock events endpoint. this would be replaced by a call to a datastore
